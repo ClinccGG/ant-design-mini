@@ -39,7 +39,7 @@ toc: 'content'
 | type | 类型，可选`default`(默认) `focus`(强调模式) | string | `default` |
 | visible |  是否显示 | boolean | false | 
 | onCancelButtonTap |  取消按钮点击事件 | ()=>void | - | 
-| onClose |  点击蒙层或强调模式下点击右上角关闭按钮，出发回调 | ()=>void | - | 
+| onClose |  点击蒙层或强调模式下点击右上角关闭按钮，触发回调 | ()=>void | - | 
 | onPrimaryButtonTap |  主按钮点击事件 | ()=>void | - | 
 | onSecondaryButtonTap |  辅助按钮点击事件 | ()=>void | - | 
 
